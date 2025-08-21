@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app People!" />
+        <Header title="QJA - Q&Q JUDO ACADEMY" />
         <p className="description">
-          Get started by editing Now<code>pages/index.js</code>
+          lista de presença
         </p>
       </main>
 
