@@ -13,7 +13,7 @@ const Header = ({ title }) => {
 const Footer = () => {
   return (
     <footer className="py-4 text-center text-gray-500 text-sm">
-      <p>&copy; {new Date().getFullYear()} QJA JUDO ACADEMY. Todos os direitos reservados.</p>
+      <p>&copy; {new Date().getFullYear()} QJA - Todos os direitos reservados.</p>
     </footer>
   );
 };
@@ -92,9 +92,6 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-gray-50 text-gray-800">
       <main className="flex-grow flex flex-col items-center justify-center p-4">
         <Header title="QJA JUDO ACADEMY" />
-        <p className="text-lg text-gray-600 mt-2 mb-8">
-          lista de presença
-        </p>
         <PresenceForm />
       </main>
 
